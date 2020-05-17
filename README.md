@@ -70,7 +70,8 @@ Deleta o arquivo `src/index.js` e no `tsconfig.json` descomenta a seguinte infor
 
 E roda de novo `yarn tsc` para ser criado então os arquivos de dentro da `dist` iguais ao da `src`.
 
-*Quando criar tipagem?*
+**Quando criar tipagem?**
+
 Como instalamos o `@types/express`, temos as tipagens já do `express`.
 Ao passar o mouse em cima do `'express'` e dar `Cmd + click`, abre-se um arquivo `index.d.ts` que traz a tipagem de cada variável do `express`.
 Arquivos com extensão `.d.ts` significa que são arquivo de definição de tipagem.
@@ -157,7 +158,8 @@ export function helloWorld (request: Request, response: Response) {
 }
 ```
 
-*Tipagem de um vetor*
+**Tipagem de um vetor**
+
 Ao adicionar `techs` na criação de user,
 ```ts
   const user = createUser({
